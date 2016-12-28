@@ -1,0 +1,49 @@
+{
+  "name": "ournet-feed-reader",
+  "version": "0.1.0",
+  "description": "One feed reader module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ournet/ournet-feed-reader.git"
+  },
+  "keywords": [
+    "ournet",
+    "feed",
+    "reader"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ournet/ournet-feed-reader/issues"
+  },
+  "homepage": "https://github.com/Ournet/ournet-feed-reader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1.27",
+    "bluebird": "^3.3.5",
+    "charset": "^1.0.0",
+    "debug": "^2.2.0",
+    "dhash": "^0.0.4",
+    "entitizer.entities-extractor": "^0.2.2",
+    "entitizer.entities-storage": "^0.1.6",
+    "feedparser": "^1.0.1",
+    "gm": "^1.17.0",
+    "html-explorer": "^0.1.12",
+    "iconv-lite": "^0.4.10",
+    "in-text-search": "^0.1.0",
+    "lodash": "^4.11.1",
+    "ournet.data.news": "^0.3.2",
+    "ournet.data.quotes": "^0.1.8",
+    "ournet.data.stories": "^0.2.5",
+    "ournet.data.videos": "^0.2.4",
+    "ournet.utils": "^0.1.1",
+    "quote-parser": "^0.1.6",
+    "request": "^2.55.0"
+  }
+}
