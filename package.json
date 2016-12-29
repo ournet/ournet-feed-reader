@@ -1,13 +1,13 @@
 {
   "name": "ournet-feed-reader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "One feed reader module",
   "main": "./lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/Ournet/ournet-feed-reader#readme",
   "dependencies": {
     "aws-sdk": "^2.1.27",
-    "bluebird": "^3.3.5",
+    "bluebird": "^3.4.7",
     "charset": "^1.0.0",
     "debug": "^2.2.0",
     "dhash": "^0.0.4",
@@ -34,7 +34,7 @@
     "entitizer.entities-storage": "^0.1.6",
     "feedparser": "^1.0.1",
     "gm": "^1.17.0",
-    "html-explorer": "^0.1.12",
+    "html-explorer": "^0.2.0",
     "iconv-lite": "^0.4.10",
     "in-text-search": "^0.1.0",
     "lodash": "^4.11.1",
@@ -44,6 +44,6 @@
     "ournet.data.videos": "^0.2.4",
     "ournet.utils": "^0.1.1",
     "quote-parser": "^0.1.6",
-    "request": "^2.55.0"
+    "request": "^2.79.0"
   }
 }
