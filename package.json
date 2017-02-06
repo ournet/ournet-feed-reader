@@ -1,6 +1,6 @@
 {
   "name": "ournet-feed-reader",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "One feed reader module",
   "main": "./lib/index.js",
   "scripts": {
@@ -38,6 +38,7 @@
     "iconv-lite": "^0.4.10",
     "in-text-search": "^0.1.0",
     "lodash": "^4.11.1",
+    "normalize-url": "^1.9.0",
     "ournet.data.news": "^0.3.6",
     "ournet.data.quotes": "^0.1.8",
     "ournet.data.stories": "^0.2.5",
