@@ -1,6 +1,6 @@
 {
   "name": "ournet-feed-reader",
-  "version": "0.2.4",
+  "version": "0.2.7",
   "description": "One feed reader module",
   "main": "./lib/index.js",
   "scripts": {
